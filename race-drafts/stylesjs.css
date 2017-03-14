@@ -1,0 +1,164 @@
+.text {
+	margin-bottom: 60px;
+}
+
+.wrapper {
+	max0: 900px;
+}
+
+#flex-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.expand {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	margin-bottom: 5px;
+	background-color: #4a8fd3;
+	border-style: none;
+	box-shadow: 1px 1px 1px grey;
+	width: 75px;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+button:hover {
+	margin-bottom: 5px;
+	background-color: #467aad;
+	border-style: none;
+	box-shadow: 2px 2px 2px grey;
+	width: 75px;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+button:active {
+	margin-bottom: 5px;
+	background-color: #467aad;
+	border-style: none;
+	box-shadow: 2px 2px 2px grey;
+	width: 75px;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+.candclose {
+	margin-bottom: 5px;
+	background-color: #4a8fd3;
+	border-style: none;
+	box-shadow: 1px 1px 1px grey;
+	width: 75px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.candclose:hover {
+	margin-bottom: 5px;
+	background-color: #467aad;
+	border-style: none;
+	box-shadow: 2px 2px 2px grey;
+	width: 75px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+/*repub red: #d65454;
+dem blue: #4a8fd3*/
+
+.mayor {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.mayor-name {
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 150px;
+}
+
+.mayor-job {
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 150px;
+}
+
+.expand {
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 150px;
+}
+
+#intro {
+	text-align: center;
+	justify-content: center;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.text {
+	display: block;
+}
+
+.showcontent {
+	display: none;
+	margin-left: 20%;
+	margin-right: 20%;
+	position: absolute;
+	margin-top: 2%;
+}
+
+h1 {
+	text-align: center;
+	font-family: serif;
+}
+
+p {
+	font-family: georgia, times, serif;
+	font-size: 1rem;
+	line-height: 1.4375rem;
+}
+
+h2 {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.1em;
+	margin-bottom: 5px;
+	margin-top: 0px;
+    padding:0;
+    width: 150px;
+}
+
+h3 {
+	text-align: center;
+	font-weight: lighter;
+	font-family: sans-serif;
+	font-size: 1em;
+	margin-bottom: 10px;
+	margin-top: 0px;
+    padding:0;
+    width: 150px;
+}
+
+h4 {
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	color: white;
+	font-weight: normal;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+h5 {
+	font-weight: lighter;
+	font-family: sans-serif;
+	font-size: .9em;
+    padding: 0;
+    margin: 0;
+}
